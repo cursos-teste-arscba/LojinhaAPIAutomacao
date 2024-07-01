@@ -16,7 +16,7 @@ public class ProdutoTest {
     public void testValidarLimitesProibidosValorProduto() {
         //Configurando os dados da API lojinha
         baseURI = "http://165.227.93.41";   //endereço da aplicação
-        basePath = "/lojinha";             // caminho inicial da aplicação
+        basePath = "/lojinha-bugada";             // caminho inicial da aplicação
 
         //Obter o token do usuário admin
         String token = given()
