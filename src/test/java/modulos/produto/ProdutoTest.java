@@ -5,7 +5,6 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.*;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
 @DisplayName("Testes de API Rest do módulo de Produto")
@@ -16,7 +15,7 @@ public class ProdutoTest {
     public void testValidarLimitesProibidosValorProduto() {
         //Configurando os dados da API lojinha
         baseURI = "http://165.227.93.41";   //endereço da aplicação
-        basePath = "/lojinha-bugada";             // caminho inicial da aplicação
+        basePath = "/lojinha-bugada";       //caminho inicial da aplicação
 
         //Obter o token do usuário admin
         String token = given()
