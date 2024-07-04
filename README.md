@@ -10,7 +10,7 @@ Esse é um repositório que contém a automação de API Rest de um software den
 - RestAssured
   (https://mvnrepository.com/artifact/io.rest-assured/rest-assured/4.4.0)
 - Maven
-- (https://mvnrepository.com/artifact/io.rest-assured/rest-assured/4.4.0)
+  (https://mvnrepository.com/artifact/io.rest-assured/rest-assured/4.4.0)
 
 ## Testes Automatizados
 - Testes para validar as partições de equivalência relacionadas ao valor do produto na Lojinha, que estão vinculados diretamente a regra de negócio que diz que o valor do produto deve estar entre R$ 0,01 a 7.000,00.
