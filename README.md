@@ -18,6 +18,6 @@ Esse é um repositório que contém a automação de API Rest de um software den
 ## Notas Gerais
 
 - Sempre utilizamos a anotação Before Each para capturar o token que será utilizado posteriormente nos métodos de teste
-- Armazenamos os dados que são enviados para a API através do uso de classes POLO
+- Armazenamos os dados que são enviados para a API através do uso de classes POJO
 - Criamos os dados inicias através do uso de classe Data Factory, para facilitar a criação e controle dos mesmos
 - Foi utilizado o Junit 5, o que nos dá a possibilidade de usar a anotação DisplayName para dar descrições em portugueses para nossos testes
